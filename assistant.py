@@ -41,7 +41,7 @@ def run_assistant():
                 speak("According to Wikipedia:")
                 speak(result)
             except:
-                speak("Sorry,I couldn't find anything.")
+                speak("Sorry,I couldn't find the answer")
 
         elif 'open youtube' in query:
             speak("Opening YouTube...")
