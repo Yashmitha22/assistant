@@ -47,9 +47,6 @@ def run_assistant():
             speak("Opening YouTube...")
             webbrowser.open("https://www.youtube.com/")
 
-        elif 'open google' in query:
-            speak("Opening Google...")
-            webbrowser.open("https://www.google.com/")
 
         elif 'time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
@@ -64,6 +61,6 @@ def run_assistant():
             break
 
         else:
-            speak("Sorry, I didn't understand that. Try again.")
+            speak("Sorry, I didn't understand your question could you please mention it again.")
 
 run_assistant()
